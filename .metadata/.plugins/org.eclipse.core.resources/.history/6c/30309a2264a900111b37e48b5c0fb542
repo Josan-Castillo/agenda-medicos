@@ -1,0 +1,5 @@
+package com.mx.agendamedicos.service;
+
+public class EspecialidadService {
+
+}

@@ -1,0 +1,7 @@
+package com.mx.agendamedicos.repository;
+
+import com.mx.agendamedicos.entity.Hospital;
+
+public interface HospitalRepository extends JpaRepository<Hospital, Long> {
+
+}

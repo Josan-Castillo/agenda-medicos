@@ -1,0 +1,20 @@
+package com.mx.agendamedicos.controller;
+
+import com.mx.agendamedicos.entity.Especialidad;
+import com.mx.agendamedicos.service.EspecialidadService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/especialidades")
+public class EspecialidadController {
+
+    @Autowired
+    private EspecialidadService especialidadService;
+
+    @GetMapping
+    public List<Especialidad> listar() {
+        return especialidadService.listarTodas();
+    }
+}

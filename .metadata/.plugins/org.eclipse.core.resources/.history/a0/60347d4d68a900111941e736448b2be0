@@ -1,0 +1,5 @@
+package com.mx.agendamedicos.entity;
+
+public class Hospital {
+
+}

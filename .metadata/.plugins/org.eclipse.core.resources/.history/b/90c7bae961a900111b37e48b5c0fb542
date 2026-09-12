@@ -1,0 +1,4 @@
+spring.application.name=agenda-medicos
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521/XEPDB1
+spring.datasource.username=agenda_medicos
+spring.datasource.password=db_oracle_medico5
